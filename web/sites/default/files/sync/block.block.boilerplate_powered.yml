@@ -1,0 +1,22 @@
+uuid: 365aba80-4abb-45ec-827c-47c24775f1b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - boilerplate
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: boilerplate_powered
+theme: boilerplate
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

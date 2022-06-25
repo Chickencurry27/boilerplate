@@ -1,0 +1,22 @@
+uuid: 7d45ea42-fbf8-4e1d-bb93-78b266a205c9
+langcode: en
+status: false
+dependencies:
+  theme:
+    - boilerplate
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: boilerplate_primary_local_tasks
+theme: boilerplate
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

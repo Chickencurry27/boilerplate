@@ -1,0 +1,20 @@
+uuid: 7077dd0e-6fe1-4a16-9a66-0c9906384a22
+langcode: en
+status: false
+dependencies:
+  theme:
+    - boilerplate
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: boilerplate_page_title
+theme: boilerplate
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

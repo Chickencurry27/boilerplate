@@ -1,0 +1,20 @@
+uuid: faa501e8-20b8-4f09-bcf0-9c1fb9f58928
+langcode: en
+status: false
+dependencies:
+  theme:
+    - boilerplate
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: boilerplate_primary_admin_actions
+theme: boilerplate
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

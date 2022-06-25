@@ -1,0 +1,23 @@
+base:
+  css:
+    base:
+      dist/css/styling.css: {}
+      dist/css/elements.css: {}
+      dist/css/layout.css: {}
+      dist/css/navigation.css: {}
+      dist/css/print.css: { media: print }
+
+  js:
+    js/script.js: {}
+    
+    dependencies:
+      - core/jquery    
+
+##################
+### PARAGRAPHS ###
+##################
+pg:
+  version: VERSION
+  css:
+    component:
+      dist/css/paragraph/pg.css: {}      

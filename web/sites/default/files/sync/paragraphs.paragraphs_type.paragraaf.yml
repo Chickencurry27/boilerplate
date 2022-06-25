@@ -1,0 +1,15 @@
+uuid: 6a66249b-ec21-47ec-a29e-574cb47197d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: paragraaf
+label: Paragraaf
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

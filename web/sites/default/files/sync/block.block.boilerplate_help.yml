@@ -1,0 +1,22 @@
+uuid: 58a9cc97-02aa-47d0-a29c-44cbd047bc2e
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - boilerplate
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: boilerplate_help
+theme: boilerplate
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

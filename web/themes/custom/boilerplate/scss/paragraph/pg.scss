@@ -1,0 +1,12 @@
+//-------------------------------
+// Paragraaf
+//-------------------------------
+.pg {
+  margin-inline: auto;
+  max-width: 800px;
+  padding: 2rem 0;
+
+  &__text {
+    font-size: 16px;
+  }
+}

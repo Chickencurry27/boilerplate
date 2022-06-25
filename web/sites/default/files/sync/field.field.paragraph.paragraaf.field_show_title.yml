@@ -1,0 +1,23 @@
+uuid: 516d0cc7-6d05-4190-b41c-de8d53155d2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_show_title
+    - paragraphs.paragraphs_type.paragraaf
+id: paragraph.paragraaf.field_show_title
+field_name: field_show_title
+entity_type: paragraph
+bundle: paragraaf
+label: 'Titel weergeven'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

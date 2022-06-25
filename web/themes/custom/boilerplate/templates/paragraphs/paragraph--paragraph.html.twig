@@ -1,0 +1,20 @@
+{{ attach_library('boilerplate/pg') }}
+
+{% set base_class = 'pg' %}
+{% set show_title = content.field_show_title['#items'][0].value %}
+
+<section class="section">
+  <div class="center-div">
+    <div class="{{ base_class }}">
+      {% if show_title == '1' %}
+        <h2 class="{{ base_class }}__title">
+          {{ content.field_title }}
+        </h2>
+      {% endif %}
+
+      <div class="{{ base_class }}__text">
+        {{ content.field_text }}
+      </div>
+    </div>
+  </div>
+</section>

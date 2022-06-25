@@ -1,0 +1,42 @@
+uuid: ca370a53-d216-4f59-94eb-0cc3c4203cd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraaf.field_show_title
+    - field.field.paragraph.paragraaf.field_text
+    - field.field.paragraph.paragraaf.field_title
+    - paragraphs.paragraphs_type.paragraaf
+  module:
+    - text
+id: paragraph.paragraaf.default
+targetEntityType: paragraph
+bundle: paragraaf
+mode: default
+content:
+  field_show_title:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

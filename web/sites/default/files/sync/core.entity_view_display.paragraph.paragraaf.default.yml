@@ -1,0 +1,42 @@
+uuid: d36226c8-bed8-4516-8575-9474aaacbabd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraaf.field_show_title
+    - field.field.paragraph.paragraaf.field_text
+    - field.field.paragraph.paragraaf.field_title
+    - paragraphs.paragraphs_type.paragraaf
+  module:
+    - text
+id: paragraph.paragraaf.default
+targetEntityType: paragraph
+bundle: paragraaf
+mode: default
+content:
+  field_show_title:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
